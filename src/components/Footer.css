@@ -1,0 +1,101 @@
+html, body {
+    height: 100%; 
+  }
+
+footer {
+    background-color: #0d1b5e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .footer-top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    width: 120px; 
+    height: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ddd;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-links li {
+    list-style: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  body {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .container {
+    flex: 1; 
+  }
+  .about-us-section {
+    background-color: #fff;
+  }
+  
+  .about-us-section h2 {
+    font-size: 2rem;
+    color: #1a237e;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section .lead {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .about-us-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
