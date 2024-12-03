@@ -14,9 +14,7 @@ function Header() {
       <nav style={styles.nav}>
         <Link to="/" style={styles.link}>Inicio</Link>
         <Link to="/Catalogo" style={styles.link}>Catalogo</Link>
-        <Link to="/novedades" style={styles.link}>Novedades</Link>
         <Link to="/sobre-nosotros" style={styles.link}>Sobre Nosotros</Link>
-        <Link to="/blog" style={styles.link}>Blog</Link>
       </nav>
       <div style={styles.icons}>
         <Link to="/buscar" style={styles.icon}>

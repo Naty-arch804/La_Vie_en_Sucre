@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import Footer from './components/Footer';
 import producto1 from './assets/product1.jpg';  
 import producto2 from './assets/product2.jpg';
 import producto3 from './assets/product3.jpg';
 
 function Carrito() {
   const [productos, setProductos] = useState([
-    { id: 1, nombre: 'Galletas de Chocolate', precio: 25, cantidad: 2, imagen: producto1 },
+    { id: 1, nombre: 'Galletas de Chocolate', precio: 25, cantidad: 1, imagen: producto1 },
     { id: 2, nombre: 'Cupcakes de Vainilla', precio: 40, cantidad: 1, imagen: producto2 },
-    { id: 3, nombre: 'Pastel de Chocolate', precio: 300, cantidad: 3, imagen: producto3 },
+    { id: 3, nombre: 'Pastel de Chocolate', precio: 300, cantidad: 1, imagen: producto3 },
   ]);
   const [codigoPromo, setCodigoPromo] = useState('');
   const [descuento, setDescuento] = useState(0);
@@ -93,6 +93,7 @@ function Carrito() {
           </div>
         </div>
       )}
+       <Footer />
     </div>
   );
 }
